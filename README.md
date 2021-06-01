@@ -2,9 +2,9 @@
 <p align="center">
   <img style="border-radius:50%;" width="300" height="300" src="https://e.top4top.io/p_1965qprez1.gif" alt="MeCodes Logo">
 </p>
-<p style="background-color:black;color:blue">MeCodes AntiCopyPaster Bot</p>
-<p style="background-color:black;color:green;">It is a bot that sends reports about people <strong>stealing their Codes rights</strong> And they say they are programmers etc.</p>
-<p style="background-color:black;color:Gold;">The bot was created in a short period of time,<strong> not exceeding five hours</strong>, and it works with the fastest database system, <strong>MongoDB</strong></p>
+<p align="center">MeCodes AntiCopyPaster Bot</p>
+<p align="center">It is a bot that sends reports about people <strong>stealing their Codes rights</strong> And they say they are programmers etc.</p>
+<p align="center">The bot was created in a short period of time,<strong> not exceeding five hours</strong>, and it works with the fastest database system, <strong>MongoDB</strong></p>
 <h2>How to use</h2>
 
 
