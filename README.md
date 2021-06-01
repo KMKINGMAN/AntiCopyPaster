@@ -1,5 +1,5 @@
 <h1 align="center">MeCode</h1>
-<img align="center" style="border-radius: 50%;" src="ihttps://e.top4top.io/p_1965qprez1.gif" alt="MeCodes Logo">
+<img align="center" style="border-radius: 50%;" src="https://e.top4top.io/p_1965qprez1.gif" alt="MeCodes Logo">
 <p style="background-color:black;color:blue">MeCodes AntiCopyPaster Bot</p>
 <p style="background-color:black;color:green;">It is a bot that sends reports about people <strong>stealing their Codes rights</strong> And they say they are programmers etc.</p>
 <p style="background-color:black;color:Gold;">The bot was created in a short period of time,<strong> not exceeding five hours</strong>, and it works with the fastest database system, <strong>MongoDB</strong></p>
