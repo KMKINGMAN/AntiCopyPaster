@@ -1,3 +1,35 @@
+/*
+---------------------------------------
+|    All rights reserved to KIGNAMN    |
+| If there is any error, just visit the|
+|        MeCodes Discord Server        |
+|     Phone Number: +962792914245      |
+---------------------------------------
+______███████████████████████
+______█████████████████████████
+______███████████████████████__██
+____▒░██████████████████████____██
+___▒░░████████████████████▒▒____██
+__▒▒░░███████████████████▒░▒___██
+__▒░░░▒█████████████████▒░░▒__██
+_▒▒░░░░▒███████████████▒░░▒_██
+▒░▒░░░░░▒█████████████▒░░░▒█
+▒▒░▒▒░░░▒▒███████████▒░░▒▒
+▒▒░░▒▒░░░▒███████████▒▒░░
+▒░▒▒░░▒▒░░░░▒▒░░░░░░░░▒▒
+▒▒░░▒░░▒▒░░░░▒░░░░░░░▒▒
+▒▒▒░░▒░░▒▒░░░░░░░░░░▒▒
+_▒░▒░░░▒▒░░░░░░░░░░▒▒
+__▒░▒░░░▒░░░░░░░░░░▒▒
+___▒░▒▒░░░░░░░░░░░░▒▒
+____▒░▒▒░░░░░░░░░░░▒▒
+______▒▒░░░░░░░░░░░▒▒
+_______▒▒░░░░░░░░░░▒▒
+________▒▒░░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+*/
 const discord = require("discord.js");
 const me = require('../../mecodes-congig.json');
 const guilmodal = require('../../me-mongomodals/CopyPasters/Guild')
@@ -5,7 +37,7 @@ const devs = me.divs
 module.exports = {
   name: "addserver",
   category: "copypaster",
-  description: "اضافة سيرفر الى القائمة",
+  description: "لاضافة سيرفر كوبي بيستر",
   run: async (client, kmsg, args, PREFIX) => {
         let filter = (m) => m.author.id === kmsg.author.id;
         let userid = kmsg.channel.send(`
@@ -110,14 +142,6 @@ module.exports = {
                                                          guildname: guildname
                                                      })
                                                      data.save().catch(e => console.log(e))
-                                                     /**
- * guildID
- * ownerID
- * des
- * ocode
- * cpcode
- * reprteduser
- */
                                                         })
                                                             })
                                                             re2c.on('collect', c=>{
