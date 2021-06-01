@@ -1,3 +1,35 @@
+/*
+---------------------------------------
+|    All rights reserved to KIGNAMN    |
+| If there is any error, just visit the|
+|        MeCodes Discord Server        |
+|     Phone Number: +962792914245      |
+---------------------------------------
+______███████████████████████
+______█████████████████████████
+______███████████████████████__██
+____▒░██████████████████████____██
+___▒░░████████████████████▒▒____██
+__▒▒░░███████████████████▒░▒___██
+__▒░░░▒█████████████████▒░░▒__██
+_▒▒░░░░▒███████████████▒░░▒_██
+▒░▒░░░░░▒█████████████▒░░░▒█
+▒▒░▒▒░░░▒▒███████████▒░░▒▒
+▒▒░░▒▒░░░▒███████████▒▒░░
+▒░▒▒░░▒▒░░░░▒▒░░░░░░░░▒▒
+▒▒░░▒░░▒▒░░░░▒░░░░░░░▒▒
+▒▒▒░░▒░░▒▒░░░░░░░░░░▒▒
+_▒░▒░░░▒▒░░░░░░░░░░▒▒
+__▒░▒░░░▒░░░░░░░░░░▒▒
+___▒░▒▒░░░░░░░░░░░░▒▒
+____▒░▒▒░░░░░░░░░░░▒▒
+______▒▒░░░░░░░░░░░▒▒
+_______▒▒░░░░░░░░░░▒▒
+________▒▒░░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+*/
 const discord = require("discord.js");
 const me = require('../../mecodes-congig.json');
 const devs = me.divs
@@ -5,7 +37,7 @@ const umodal = require('../../me-mongomodals/CopyPasters/reprt')
 module.exports = {
   name: "guildreport",
   category: "copypaster",
-  description: "للابلاغ عن سيرفر",
+  description: "للابلاغ عن سيرفر كوبي بيستر",
   run: async (client, kmsg, args, PREFIX) => {
     let filter = (m) => m.author.id === kmsg.author.id;
     let ch = client.guilds.cache.get(me.server).channels.cache.get(me.rech);
@@ -99,15 +131,6 @@ module.exports = {
                                                      guildname: guildname
                                                  })
                                                  data.save().catch(e => console.log(e))
-                                                 /**
-         * userid : guildid
-         * gownerid : guildownid
-         * discrip: discription
-         * ocode : original codes
-         * cpcode : copypaster Codes
-         * rtype: guild
-         * repouser : userID 
-         */
                                                ch.send(`
                                                > **ServerID : ${userid}**
                                                > **ServerOwnerID: ${gownerid}**
