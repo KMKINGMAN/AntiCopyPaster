@@ -1,0 +1,20 @@
+{
+  "name": "MeCodes AntCopyPasterBot",
+  "version": "1.0.0",
+  "description": "It is a bot that sends reports about people stealing their Codes rights And they say they are programmers etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["mecodes", "anticopypasterbot", "kingmanbot"],
+  "author": "Muhammad Kurkar +962792914245 [KINGMAN]",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "mongoose": "^5.12.12"
+  }
+}
