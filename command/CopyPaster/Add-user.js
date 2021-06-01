@@ -1,3 +1,35 @@
+/*
+---------------------------------------
+|    All rights reserved to KIGNAMN    |
+| If there is any error, just visit the|
+|        MeCodes Discord Server        |
+|     Phone Number: +962792914245      |
+---------------------------------------
+______███████████████████████
+______█████████████████████████
+______███████████████████████__██
+____▒░██████████████████████____██
+___▒░░████████████████████▒▒____██
+__▒▒░░███████████████████▒░▒___██
+__▒░░░▒█████████████████▒░░▒__██
+_▒▒░░░░▒███████████████▒░░▒_██
+▒░▒░░░░░▒█████████████▒░░░▒█
+▒▒░▒▒░░░▒▒███████████▒░░▒▒
+▒▒░░▒▒░░░▒███████████▒▒░░
+▒░▒▒░░▒▒░░░░▒▒░░░░░░░░▒▒
+▒▒░░▒░░▒▒░░░░▒░░░░░░░▒▒
+▒▒▒░░▒░░▒▒░░░░░░░░░░▒▒
+_▒░▒░░░▒▒░░░░░░░░░░▒▒
+__▒░▒░░░▒░░░░░░░░░░▒▒
+___▒░▒▒░░░░░░░░░░░░▒▒
+____▒░▒▒░░░░░░░░░░░▒▒
+______▒▒░░░░░░░░░░░▒▒
+_______▒▒░░░░░░░░░░▒▒
+________▒▒░░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+*/
 const discord = require("discord.js");
 const me = require('../../mecodes-congig.json');
 const devs = me.divs
@@ -5,7 +37,7 @@ const usermodal = require('../../me-mongomodals/CopyPasters/User')
 module.exports = {
   name: "adduser",
   category: "copypaster",
-  description: "لاضافة يوزر الى القائمة",
+  description: "لاضافة كوبي بيستر للقائمة",
   run: async (client, kmsg, args, PREFIX) => {
     let filter = (m) => m.author.id === kmsg.author.id;
     
@@ -76,24 +108,6 @@ module.exports = {
                                             reprteduser : kmsg.author.id,
                                          })
                                          data.save().catch(e => console.log(e))
-                                         /**
- * userID
- * des 
- * ocode
- * cpcode
- * reprteduser
- */
-                                      //  ch.send(`
-                                      //  > **target : ${userid}**
-                                      //  > **discription : ${discrip}**
-                                      //  > **original codes : ${ocode}**
-                                      //  > **CopyPaser Code : ${cpcode}**
-                                      //  > **Reporter : ${kmsg.author.id}**
-                                      //  >** report type : user** 
-                                      //  `).then(m =>{
-                                      //   m.react('✅')
-                                      //   m.react('❌')
-                                      //       })
                                             })
                                                 })
                                                 
