@@ -1,11 +1,35 @@
-/**
- * userid : target
- * discrip: discription
- * ocode : original codes
- * cpcode : copypaster Codes
- * rtype: user
- * repouser : userID 
- */
+/*
+---------------------------------------
+|    All rights reserved to KIGNAMN    |
+| If there is any error, just visit the|
+|        MeCodes Discord Server        |
+|     Phone Number: +962792914245      |
+---------------------------------------
+______███████████████████████
+______█████████████████████████
+______███████████████████████__██
+____▒░██████████████████████____██
+___▒░░████████████████████▒▒____██
+__▒▒░░███████████████████▒░▒___██
+__▒░░░▒█████████████████▒░░▒__██
+_▒▒░░░░▒███████████████▒░░▒_██
+▒░▒░░░░░▒█████████████▒░░░▒█
+▒▒░▒▒░░░▒▒███████████▒░░▒▒
+▒▒░░▒▒░░░▒███████████▒▒░░
+▒░▒▒░░▒▒░░░░▒▒░░░░░░░░▒▒
+▒▒░░▒░░▒▒░░░░▒░░░░░░░▒▒
+▒▒▒░░▒░░▒▒░░░░░░░░░░▒▒
+_▒░▒░░░▒▒░░░░░░░░░░▒▒
+__▒░▒░░░▒░░░░░░░░░░▒▒
+___▒░▒▒░░░░░░░░░░░░▒▒
+____▒░▒▒░░░░░░░░░░░▒▒
+______▒▒░░░░░░░░░░░▒▒
+_______▒▒░░░░░░░░░░▒▒
+________▒▒░░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+_________▒▒░░░░░░░░▒▒
+*/
 
 const umodal = require('../../me-mongomodals/CopyPasters/reprt')
  const discord = require("discord.js");
@@ -13,7 +37,7 @@ const me = require('../../mecodes-congig.json');
  module.exports = {
    name: "userreport",
    category: "copypaster",
-   description: "للابلاغ عن يوزر",
+   description: "للابلاغ عن شخص كوبي بيستر",
    run: async (client, kmsg, args) => {
     let filter = (m) => m.author.id === kmsg.author.id;
     let ch = client.guilds.cache.get(me.server).channels.cache.get(me.rech);
@@ -85,14 +109,6 @@ const me = require('../../mecodes-congig.json');
                                               target : userid
                                           })
                                           data.save().catch(e => console.log(e))
-                                          /**
-  * userid : target
-  * discrip: discription
-  * ocode : original codes
-  * cpcode : copypaster Codes
-  * rtype: user
-  * repouser : userID 
-  */
                                         ch.send(`
                                         > **target : ${userid}**
                                         > **discription : ${discrip}**
