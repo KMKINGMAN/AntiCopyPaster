@@ -50,7 +50,7 @@ module.exports = {
     .setAuthor(kmsg.author.tag, kmsg.author.displayAvatarURL({ dynamic: true }))
     .setFooter(kmsg.guild.name, kmsg.guild.iconURL())
     .setThumbnail(kmsg.guild.iconURL())
-    .addField('**Copy Paster Servers**', `${users.join(`/n`)}`)
+    .addField('**Copy Paster Servers**', `${users.join(`\n`)}`)
     .setColor("GREEN")
     kmsg.channel.send({ embed: embed })
     } catch(e){
