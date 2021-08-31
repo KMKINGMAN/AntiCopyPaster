@@ -1,6 +1,6 @@
-<h1 align="center">MeCode</h1>
+<h1 align="center">KINGMAN DEV</h1>
 <p align="center">
-  <img style="border-radius:50%;" width="300" height="300" src="https://e.top4top.io/p_1965qprez1.gif" alt="MeCodes Logo">
+  <img style="border-radius:50%;" width="300" height="300" src="hhttps://h.top4top.io/p_1873t456n1.png" alt="kingman Logo">
 </p>
 <p align="center">MeCodes AntiCopyPaster Bot</p>
 <p align="center">It is a bot that sends reports about people <strong>stealing their Codes rights</strong> And they say they are programmers etc.</p>
