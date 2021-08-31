@@ -1,9 +1,8 @@
-  
 /*
 ---------------------------------------
 |    All rights reserved to KIGNAMN    |
 | If there is any error, just visit the|
-|        MeCodes Discord Server        |
+|     KINGMANDEV Discord Server        |
 |     Phone Number: +962792914245      |
 ---------------------------------------
 ______███████████████████████
