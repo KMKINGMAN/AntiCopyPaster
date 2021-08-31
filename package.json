@@ -1,12 +1,12 @@
 {
-  "name": "MeCodes AntCopyPasterBot",
+  "name": "kingman AntCopyPasterBot",
   "version": "1.0.0",
   "description": "It is a bot that sends reports about people stealing their Codes rights And they say they are programmers etc.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["mecodes", "anticopypasterbot", "kingmanbot"],
+  "keywords": ["kingman", "anticopypasterbot", "kingmanbot"],
   "author": "Muhammad Kurkar +962792914245 [KINGMAN]",
   "license": "ISC",
   "dependencies": {
