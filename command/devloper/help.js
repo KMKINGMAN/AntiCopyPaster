@@ -36,7 +36,7 @@ const usermodal = require('../../me-mongomodals/CopyPasters/User')
 const devs = me.divs
 module.exports = {
   name: "help",
-  category: "MeCodes",
+  category: "kingman dev",
   description: "لعرض قائمة الاوامر",
   run: async (client, kmsg, args, PREFIX) => {
     let commands = kmsg.client.commands.array();
