@@ -40,8 +40,8 @@ module.exports = {
   run: async (client, kmsg, args, PREFIX) => {
     let users = []
     let data = await umodal.find({});
-    data.forEach(async (mecodes) => {
-        users.push(`<@!${mecodes.userID}>`)
+    data.forEach(async (kingmandev) => {
+        users.push(`<@!${kingmandev.userID}>`)
   })
     try {
     let embed = new discord.MessageEmbed()
