@@ -41,7 +41,7 @@ module.exports = {
   run: async (client, kmsg, args, PREFIX) => {
     let commands = kmsg.client.commands.array();
     let EMBED = new MessageEmbed()
-    .setTitle(`MeCodes`)
+    .setTitle(`KINGMANDEV`)
     .setDescription(`**بوت فضح الكوبي بيستر الاول بالديسكورد**`)
     .setColor("GOLD");
     commands.forEach((cmd) => {
